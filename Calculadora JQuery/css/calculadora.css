@@ -1,0 +1,102 @@
+
+.container{
+  width: 100%;
+}
+.visualCalculadora{
+  width: 350px;
+  height: auto;
+	margin: 100px auto;
+	padding: 20px 20px 9px;
+  background: linear-gradient(#ffffff, #ebebeb);
+	box-shadow: 0px 4px #a7a7a7, 0px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.num{
+   cursor: pointer;
+   width: 80px;
+   height: 40;
+   background: rgb(115, 26, 228);
+   border-radius: 3px;
+   box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
+   margin: 0 7px 11px 0;
+   color: rgb(244, 244, 244);
+   line-height: 40px;
+   text-align: center;
+ }
+ .num:hover{
+   background-color:rgb(141, 65, 184);
+ }
+
+  .oper{
+    cursor: pointer;
+    width: 80px;
+    height: 40;
+    background: rgb(115, 26, 228);
+    border-radius: 3px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
+    margin: 0 7px 11px 0;
+    color: rgb(244, 244, 244);
+    line-height: 40px;
+    text-align: center;
+  }
+  .oper:hover{
+    background: rgb(141, 65, 184) ;
+  }
+
+  .botaoReset{
+    cursor: pointer;
+    width: 80px;
+    height: 40;
+    background-color: rgb(115, 26, 228);
+    border-radius: 3px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
+    margin: 0 7px 11px 0;
+    color: rgb(244, 244, 244);
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .botaoReset:hover{
+    background-color: rgb(141, 65, 184) ;
+  }
+
+  .numIgual{
+    cursor: pointer;
+    width: 355px;
+    height: 40;
+    background-color:  rgb(101, 86, 223) ;
+    border-radius: 3px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.3);
+    margin: 0 7px 11px 0;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    }
+    .numIgual:hover{
+      background-color: rgb(123, 117, 171);
+    }
+
+    #visorCalculadora {
+        height: 40px;
+        width: 350px;
+        background: rgb(143, 170, 201);
+        border-radius: 3px;
+        box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+        line-height: 40px;
+        color: #000;
+        text-align: right;
+        letter-spacing: 2px;
+        font-family: "Calculator" !important;
+        margin-bottom: 5px;
+    }
+
+    @font-face {
+         font-family: "Calculator";
+         src: url(../fonts/Calculator.ttf)format("truetype");
+       }
+    @font-face {
+         font-family: "Bebas-Neue";
+         src: url(../fonts/BebasNeue-Regular.otf);
+    }
+    button:focus, button:active {
+    outline: none;
